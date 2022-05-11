@@ -1,0 +1,40 @@
+h1 {
+    font: 3em;
+    color: purple;
+}
+
+paragraph {
+    margin: 20px 50px 20px 50px;
+
+}
+section{
+    padding: 15px;
+    margin: 50px;
+    background-color: lightgray;
+    border:solid 2px black;
+    border-radius: purple;
+}
+img{
+    width: 350px;
+    float: right;
+    padding: 15px;
+}
+
+.tree-heading {
+    color: orange;
+}
+.hello {
+    color: blue;
+    font: 3em;
+}
+.para {
+    font: 100;
+    color: purple;
+}
+.helloworld {
+    font-size: 3em;
+    border-color: aquamarine;
+    background-color: burlywood;
+    margin: 10px 20px;
+    text-align-last: center;
+}
