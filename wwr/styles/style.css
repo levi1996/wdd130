@@ -216,6 +216,38 @@ main section img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.join-river:hover{
+    background-color: aliceblue;
+    color: #072A40;
+}
+#river-img{
+    width: 100%;
+    height: 80%;
+}
+#background-river{
+    height: 725px;
+    background-color: #dfde99;
+    grid-column: 1/11;
+    grid-row: 4/9;
+
+}
+.msg-river{
+    background-color: #b3a72c;
+    padding: 35px;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+.join-river{
+    background-color: #bd6d1d;
+    color: #072A40;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
